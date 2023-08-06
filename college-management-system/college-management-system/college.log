@@ -1,0 +1,60 @@
+2023-07-31T06:28:19.173+05:30  INFO 10112 --- [main] c.c.CollegeManagementSystemApplication   : Starting CollegeManagementSystemApplication using Java 19.0.2 with PID 10112 (C:\Users\91995\Documents\Sts-Projects\college-management-system\target\classes started by 91995 in C:\Users\91995\Documents\Sts-Projects\college-management-system)
+2023-07-31T06:28:19.192+05:30  INFO 10112 --- [main] c.c.CollegeManagementSystemApplication   : The following 1 profile is active: "admin"
+2023-07-31T06:28:21.090+05:30  INFO 10112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-31T06:28:21.308+05:30  INFO 10112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 179 ms. Found 3 JPA repository interfaces.
+2023-07-31T06:28:23.044+05:30  INFO 10112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2023-07-31T06:28:23.074+05:30  INFO 10112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-31T06:28:23.075+05:30  INFO 10112 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-31T06:28:23.290+05:30  INFO 10112 --- [main] o.a.c.c.C.[.[localhost].[/college]       : Initializing Spring embedded WebApplicationContext
+2023-07-31T06:28:23.291+05:30  INFO 10112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3953 ms
+2023-07-31T06:28:23.708+05:30  INFO 10112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-31T06:28:23.843+05:30  INFO 10112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-31T06:28:23.849+05:30  INFO 10112 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-31T06:28:24.201+05:30  INFO 10112 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T06:28:24.630+05:30  INFO 10112 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-31T06:28:24.677+05:30  INFO 10112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-31T06:28:25.129+05:30  INFO 10112 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a0896b3
+2023-07-31T06:28:25.133+05:30  INFO 10112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-31T06:28:25.755+05:30  INFO 10112 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T06:28:27.178+05:30  INFO 10112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-31T06:28:27.333+05:30  INFO 10112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-31T06:28:28.589+05:30  WARN 10112 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-31T06:28:29.512+05:30  INFO 10112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path '/college'
+2023-07-31T06:28:29.531+05:30  INFO 10112 --- [main] c.c.CollegeManagementSystemApplication   : Started CollegeManagementSystemApplication in 11.73 seconds (process running for 12.97)
+2023-07-31T06:29:00.599+05:30  INFO 10112 --- [http-nio-9002-exec-2] o.a.c.c.C.[.[localhost].[/college]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-31T06:29:00.599+05:30  INFO 10112 --- [http-nio-9002-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-31T06:29:00.599+05:30  INFO 10112 --- [http-nio-9002-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-31T06:29:01.130+05:30 ERROR 10112 --- [http-nio-9002-exec-2] c.college.service.DepartmentServiceImpl  : error as department is null
+2023-07-31T06:29:17.906+05:30  INFO 10112 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-31T06:29:17.910+05:30  INFO 10112 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-31T06:29:17.930+05:30  INFO 10112 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-31T06:33:06.978+05:30  INFO 16044 --- [main] c.c.CollegeManagementSystemApplication   : Starting CollegeManagementSystemApplication using Java 19.0.2 with PID 16044 (C:\Users\91995\Documents\Sts-Projects\college-management-system\target\classes started by 91995 in C:\Users\91995\Documents\Sts-Projects\college-management-system)
+2023-07-31T06:33:06.982+05:30  INFO 16044 --- [main] c.c.CollegeManagementSystemApplication   : The following 1 profile is active: "admin"
+2023-07-31T06:33:08.714+05:30  INFO 16044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-31T06:33:08.886+05:30  INFO 16044 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 3 JPA repository interfaces.
+2023-07-31T06:33:10.539+05:30  INFO 16044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2023-07-31T06:33:10.573+05:30  INFO 16044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-31T06:33:10.575+05:30  INFO 16044 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-31T06:33:10.813+05:30  INFO 16044 --- [main] o.a.c.c.C.[.[localhost].[/college]       : Initializing Spring embedded WebApplicationContext
+2023-07-31T06:33:10.814+05:30  INFO 16044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3709 ms
+2023-07-31T06:33:11.239+05:30  INFO 16044 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-31T06:33:11.402+05:30  INFO 16044 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-31T06:33:11.408+05:30  INFO 16044 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-31T06:33:11.798+05:30  INFO 16044 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T06:33:12.189+05:30  INFO 16044 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-31T06:33:12.228+05:30  INFO 16044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-31T06:33:12.607+05:30  INFO 16044 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59262a90
+2023-07-31T06:33:12.611+05:30  INFO 16044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-31T06:33:13.267+05:30  INFO 16044 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T06:33:14.587+05:30  INFO 16044 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-31T06:33:14.750+05:30  INFO 16044 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-31T06:33:16.196+05:30  WARN 16044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-31T06:33:17.278+05:30  INFO 16044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path '/college'
+2023-07-31T06:33:17.305+05:30  INFO 16044 --- [main] c.c.CollegeManagementSystemApplication   : Started CollegeManagementSystemApplication in 11.716 seconds (process running for 12.755)
+2023-07-31T06:33:21.281+05:30  INFO 16044 --- [http-nio-9002-exec-2] o.a.c.c.C.[.[localhost].[/college]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-31T06:33:21.282+05:30  INFO 16044 --- [http-nio-9002-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-31T06:33:21.284+05:30  INFO 16044 --- [http-nio-9002-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-31T06:33:21.656+05:30 ERROR 16044 --- [http-nio-9002-exec-2] c.college.service.DepartmentServiceImpl  : error as department is null
+2023-07-31T06:34:35.564+05:30  INFO 16044 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-31T06:34:35.568+05:30  INFO 16044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-31T06:34:35.584+05:30  INFO 16044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file> college.log</file>
+        <encoder>
+            <patter> %thread %level %msg %n</patter>
+        </encoder>
+    </appender>
+    <root name="com.college" level="ERROR">
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
